@@ -2,7 +2,8 @@ class HolaMundo
   def initialize()
   end
   def saluda()
-    puts "Hola Amigos"
+    lamb = lambda {"hola mundo"}
+    puts lamb.call
   end
 end
 
